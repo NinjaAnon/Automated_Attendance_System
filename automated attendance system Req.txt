@@ -1,0 +1,13 @@
+	This document enumerates the requirement for automated attendance system.
+
+
+#1 Home Page for Login and Register.
+#2 Login for Teachers and other admins who wish to take attendance.
+#3 Login for SuperUser who can see and edit every attendance sheet.
+#4 A page for adding and preparing attendance sheet.
+#5 A page for taking attendance.
+   Attendance can be taken in two ways either by directly entering the UID/Roll Numbers of absent students/employees
+   Or by clicking against the checkboxes of present student.
+  *If time permits functionality will also be added for taking attendance using QR codes and Facial Recognition.
+
+#6 Logins for students/employees to know about their attendance.
