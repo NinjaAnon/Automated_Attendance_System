@@ -11,3 +11,16 @@
   *If time permits functionality will also be added for taking attendance using QR codes and Facial Recognition.
 
 #6 Logins for students/employees to know about their attendance.
+#7 Admins can see the attendance sheet and modify it. 
+#8 New users can register.
+#9 If somebody forgets their password then providing ways to create new password.
+#10 Attendance sheet will contain the time of attendance(when using QR code and Facial Recognition.)
+#11 Weekly updates to users via mail
+#12 Uploading the whole app to heroku.
+#13 form check using javascript/html5 (e.g. is it the correct format for input)
+#14 Create the same attendance sheet for next month.
+#15 The attendance sheet will contain names of attendees their ROll numbers and date and day of that month.
+    Absent will be marked with A.
+    Present will be marked with P.
+
+#16
