@@ -1,0 +1,10 @@
+class users
+	showhomepage
+        if login tab clicked
+		login():
+		redirect to login page ask for uid and password
+		check uid and password 
+		if correct
+			display userprofilepage
+		if wrong
+			redirect to login page with a error message	
