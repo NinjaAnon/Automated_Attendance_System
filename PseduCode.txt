@@ -16,3 +16,15 @@ class users
 			make user and update database
 		if wrong
 			redirect to register page and display correct error message
+
+ 	check usertype			
+	if attendee
+		showoptions which include see attendance and give attendance
+		if see attendance clicked
+			show his attendance
+		if give attendance clicked
+			show attendance modes(only qr mode available for now later versions may include face recognition )
+			if QR clicked
+				record QR image process and update attendance
+                if update profile clicked
+			display form for updating user details
