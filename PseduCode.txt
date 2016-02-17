@@ -8,3 +8,11 @@ class users
 			display userprofilepage
 		if wrong
 			redirect to login page with a error message	
+	if register tab clicked 
+		register():
+		redirect to register page display a form asking for email ,password,and user type(attendees and admins) 			and other requirements
+		check form details
+		if correct
+			make user and update database
+		if wrong
+			redirect to register page and display correct error message
