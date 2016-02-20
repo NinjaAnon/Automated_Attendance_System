@@ -28,7 +28,7 @@ class users
 				record QR image process and update attendance
                 if update profile clicked
 			display form for updating user details
-	       if admin
+	 if admin
 	      showoptions which include create attendance sheet, edit attendance sheet,take attendance and update user 	   	      profile
 	      if create attendancesheet clicked
 	      show upload attendance sheet page ask for range of days the month of A.S. -->validate if correct then update 	      the database
@@ -37,4 +37,25 @@ class users
 	      if take attendance clicked
 			show attendance sheets available to the admin and prompt for the list of UIDs availabe 	
               if update profile clicked
+			display form for updating user details	if superuser
+              showoptions which include create attendance sheet, edit attendance sheet and :
+	      if create attendancesheet clicked
+			show upload attendance sheet page ask for range of days the month of A.S. -->validate if correct then update the database
+              if edit attendancesheet clicked 
+			show options to update attendance sheet take input validate and update the attendance sheet
+              if update profile clicked
 			display form for updating user details
+              if show users clicked
+                        displaye users and a edit and delete tab
+			if edit clicked
+				show user details and a form which lets su to edit user details--> validate--> if correct update the details in database
+			if delete clicked
+				ask for confirmations if yes clicked delete the user 
+	     if show attendance sheets clicked
+			display all attendance sheets their owners and show edit tabs
+                        if edit attendancesheet clicked 
+				show options to update attendance sheet take input validate and update the attendance sheet
+      if logout clicked
+	     logout the user	
+
+        
