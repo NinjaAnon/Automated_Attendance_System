@@ -100,3 +100,11 @@ public class UploadServlet extends HttpServlet {
        System.out.println(ex);
    }
    }
+   public void doGet(HttpServletRequest request, 
+                       HttpServletResponse response)
+        throws ServletException, java.io.IOException {
+        
+        throw new ServletException("GET method used with " +
+                getClass( ).getName( )+": POST method required.");
+   } 
+}
