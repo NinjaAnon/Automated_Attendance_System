@@ -37,3 +37,22 @@ public class ImageReceiver extends HttpServlet {
             int name = new Random().nextInt(100000);
             FileOutputStream output = new FileOutputStream(new File("C:\\Users\\Anubhav_Pandey\\Bitnami Trac Stack projects\\Automated Attendance System\\AttendanceSheets\\"
                     + name + ".png"));
+
+
+            output.write(new BASE64Decoder().decodeBuffer(data));
+            output.flush();
+            output.close();
+
+            response.setContentType("text/html");
+             PrintWriter out = response.getWriter();
+             out.print(name);
+            
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+}
+
